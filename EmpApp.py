@@ -6,12 +6,11 @@ from config import *
 
 app = Flask(__name__)
 
-bucket = custombucket
-region = customregion
+bucket = databashe-1
+region = us-east-2
 
 db_conn = connections.Connection(
-    host=database-1host,
-    port=3306,
+    host=,database-1.cacsabkcjmvr.us-east-2.rds.amazonaws.com,
     user=admin,
     password=prasad123,
     db=database-1
